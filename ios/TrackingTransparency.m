@@ -1,6 +1,10 @@
 #import "TrackingTransparency.h"
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 
+@interface TrackingTransparency ()
+@property (weak) id _observer;
+@end
+
 @implementation TrackingTransparency
 
 RCT_EXPORT_MODULE()
